@@ -1,0 +1,11 @@
+name = "news-trending-generator"
+compatibility_date = "2025-11-21"
+type = "javascript"
+
+# Account-level config
+account_id = "ad3e5dc932de1d6f00502baa1debbec1"
+
+# Default environment (optional). You can run `wrangler publish --env production` if you configure env blocks.
+[build]
+command = "npm run build"
+upload_format = "service-worker"
