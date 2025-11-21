@@ -8,4 +8,6 @@ account_id = "ad3e5dc932de1d6f00502baa1debbec1"
 # Default environment (optional). You can run `wrangler publish --env production` if you configure env blocks.
 [build]
 command = "npm run build"
-upload_format = "service-worker"
+# Tell Pages where the build output will land (VitePress default)
+pages_build_output_dir = ".vitepress/dist"
+
