@@ -1,5 +1,4 @@
 name = "news-trending-generator"
 compatibility_date = "2025-11-21"
 
-# Tell Pages where the built static site will be found (VitePress default)
 pages_build_output_dir = ".vitepress/dist"
