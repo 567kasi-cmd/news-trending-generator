@@ -9,8 +9,7 @@
     "preview": "vitepress preview",
     "preview:docs": "vitepress preview docs"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "vitepress": "^1.0.0"
   }
