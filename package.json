@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "dev": "vitepress dev",                     // local dev server
+    "build": "vitepress build",                 // production build (root)
+    "build:docs": "vitepress build docs",      // if your site is in docs/
+    "preview": "vitepress preview",             // preview built site locally
+    "preview:docs": "vitepress preview docs"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -18,4 +20,5 @@
     "autoprefixer": "^10.4.14"
   }
 }
+
 
