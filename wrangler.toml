@@ -1,13 +1,11 @@
 name = "news-trending-generator"
 compatibility_date = "2025-11-21"
-type = "javascript"
 
-# Account-level config
+# If you're only using Pages UI (and not wrangler publish), account_id is optional.
 account_id = "ad3e5dc932de1d6f00502baa1debbec1"
 
-# Default environment (optional). You can run `wrangler publish --env production` if you configure env blocks.
-[build]
-command = "npm run build"
-# Tell Pages where the build output will land (VitePress default)
+# Tell Cloudflare Pages where the built static site is located
 pages_build_output_dir = ".vitepress/dist"
 
+[build]
+command = "npm run build"
